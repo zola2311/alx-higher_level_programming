@@ -211,7 +211,6 @@ class test_create(unittest.TestCase):
         self.assertFalse(r is check)
         self.assertFalse(r == check)
 
-
     def test_squares(self):
         ''' Squares instances '''
         r = Square(5)

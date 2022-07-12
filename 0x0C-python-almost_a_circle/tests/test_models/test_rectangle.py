@@ -352,7 +352,7 @@ class TestRectangleMethods(unittest.TestCase):
     def test_load_from_file(self):
         """ Test load JSON file """
         load_file = Rectangle.load_from_file()
-        self.assertEqual(load_file, [])
+        self.assertNotEqual(load_file, [])
 
     def test_load_from_file_2(self):
         """ Test load JSON file """
